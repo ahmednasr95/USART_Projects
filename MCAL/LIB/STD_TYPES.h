@@ -1,13 +1,15 @@
 /*
- * IncFile1.h
+ * STD_TYPES_H_.h
  *
  * Created: 8/21/2023 3:49:22 PM
  *  Author: Ahmed ElSayed
  */ 
 
 
-#ifndef _STD_TYPES_H_
-#define _STD_TYPES_H_
+#ifndef STD_TYPES_H_
+#define STD_TYPES_H_
+
+#define F_CPU 16000000
 
 typedef unsigned char		UINT8_t;
 typedef	unsigned short		UINT16_t;
@@ -26,4 +28,4 @@ typedef enum {
 	TRUE
 }bool;
 
-#endif /* INCFILE1_H_ */
+#endif /* STD_TYPES_H_ */

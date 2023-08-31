@@ -1,4 +1,8 @@
-#include "DIO.h"
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "DIO_Private.h"
+#include "DIO_Interface.h"
 
 void DIO_SetPortDir(UINT8_t Port, UINT8_t Dir){
 	switch(Port){

@@ -8,7 +8,9 @@
 #define USART_PRIVATE_H_
 
 #include "STD_TYPES.h"
-#include "DIO.h"
+#include "BIT_MATH.h"
+#include "DIO_Interface.h"
+#include "GIE_Interface.h"
 
 /*Register addresses*/
 #define		UDR		(*(volatile UINT16_t *) 0x2C)
@@ -56,6 +58,7 @@
 #define	USART_SYNC	1
 
 /*Parity Mode*/
+#define USART_NO_PARITY		0
 #define USART_EVEN_PARITY	2
 #define USART_ODD_PARITY	3
 
@@ -75,7 +78,31 @@
 #define USART_TX_FALLING_EDGE	1
 
 /*Double baudrate*/
-#define USART_DOUBLE_SPEED_DS	0
-#define USART_DOUBLE_SPEED_EN	1
+#define USART_DDR_DS	0
+#define USART_DDR_EN	1
+
+/*RX interrupt control*/
+#define USART_RX_INT_DS		0
+#define USART_RX_INT_EN		1
+
+/*TX interrupt control*/
+#define USART_TX_INT_DS		0
+#define USART_TX_INT_EN		1
+
+/*RX control*/
+#define USART_RX_DS		0
+#define USART_RX_EN		1
+
+/*TX control*/
+#define USART_TX_DS		0
+#define USART_TX_EN		1
+
+/*empty data register interrupt control*/
+#define USART_DRE_INT_DS	0
+#define USART_DRE_INT_EN	1
+
+/*multi-processor mode control*/
+#define USART_MULTI_ECU_DS		0
+#define USART_MULTI_ECU_EN		1
 
 #endif /* USART_PRIVATE_H_ */
