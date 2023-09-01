@@ -9,9 +9,9 @@
 int main(void)
 {
 	Init();
-	Test_UART();
+	
     while(1)
     {
-        //TODO:: Please write your application code 
+        Test_UART();//TODO:: Please write your application code 
     }
 }

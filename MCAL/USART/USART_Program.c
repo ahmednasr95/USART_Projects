@@ -11,9 +11,9 @@
 
 void USART_Init(){
 	
-	UINT8_t UCSRA_setting = 0;
-	UINT8_t UCSRB_setting = 0;
-	UINT8_t UCSRC_setting = 0;
+	volatile UINT8_t UCSRA_setting = 0;
+	volatile UINT8_t UCSRB_setting = 0;
+	volatile UINT8_t UCSRC_setting = 0;
 	
 	/*=============================*/
 	/*		  UCSRC Setting		   */
@@ -258,13 +258,10 @@ UINT8_t USART_RecieveCharacter(){
 }
 
 void USART_SendCharacter(UINT8_t chr){
-	UINT16_t timeout = 0;
-	
-	while(!READ_BIT(UCSRA, UCSRA_TXC) || timeout == 5000){
-		timeout++;
-	}
-	
+	//UINT16_t timeout = 0;
 	UDR = chr;
+	while(!READ_BIT(UCSRA, UCSRA_TXC));
+	
 }
 void _vector_13(void) __attribute__((signal));
 

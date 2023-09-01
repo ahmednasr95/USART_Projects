@@ -104,35 +104,35 @@ LINKER_SCRIPT_DEP+=
 APP/TEST_UART/TEST_UART_Program.o: ../APP/TEST_UART/TEST_UART_Program.c
 	@echo Building file: $<
 	@echo Invoking: XC8 C Compiler : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 ./main.o: .././main.c
 	@echo Building file: $<
 	@echo Invoking: XC8 C Compiler : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 MCAL/DIO/DIO_Program.o: ../MCAL/DIO/DIO_Program.c
 	@echo Building file: $<
 	@echo Invoking: XC8 C Compiler : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 MCAL/INTERRUPTS/GIE/GIE_Program.o: ../MCAL/INTERRUPTS/GIE/GIE_Program.c
 	@echo Building file: $<
 	@echo Invoking: XC8 C Compiler : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 MCAL/USART/USART_Program.o: ../MCAL/USART/USART_Program.c
 	@echo Building file: $<
 	@echo Invoking: XC8 C Compiler : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE)  -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -c -x c -funsigned-char -funsigned-bitfields -mext=cci -D__ATmega32__ -DDEBUG  -I"../MCAL/DIO" -I"../MCAL/LIB" -I"../MCAL/USART" -I"../MCAL/INTERRUPTS/GIE" -I"../APP/TEST_UART"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
@@ -162,11 +162,11 @@ all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER_SCRIPT_DEP)
 	@echo Building target: $@
 	@echo Invoking:  XC8 C Linker : 2.36
-	$(QUOTE)E:\Programs\MPLAB XC8\bin\xc8-cc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -mcpu=ATmega32  -mdfp="E:\Programs\Microchip Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -Wl,-Map="USART_Projects.map" -funsigned-char -funsigned-bitfields -Wl,--start-group -Wl,-lm  -Wl,--end-group -Wl,--gc-sections -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums --memorysummary,memoryfile.xml  
+	$(QUOTE)C:\Program Files\Microchip\xc8\v2.36\bin\xc8-cc.exe$(QUOTE) -o$(OUTPUT_FILE_PATH_AS_ARGS) $(OBJS_AS_ARGS) $(USER_OBJS) $(LIBS) -mcpu=ATmega32  -mdfp="D:\Microchip_studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\xc8"  -Wl,-Map="USART_Projects.map" -funsigned-char -funsigned-bitfields -Wl,--start-group -Wl,-lm  -Wl,--end-group -Wl,--gc-sections -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums --memorysummary,memoryfile.xml  
 	@echo Finished building target: $@
-	"E:\Programs\MPLAB XC8\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "USART_Projects.elf" "USART_Projects.hex"
-	"E:\Programs\MPLAB XC8\bin\avr-objcopy.exe" -j .eeprom --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0 --no-change-warnings -O ihex "USART_Projects.elf" "USART_Projects.eep" || exit 0
-	"E:\Programs\MPLAB XC8\bin\avr-objdump.exe" -h -S "USART_Projects.elf" > "USART_Projects.lss"
+	"C:\Program Files\Microchip\xc8\v2.36\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures  "USART_Projects.elf" "USART_Projects.hex"
+	"C:\Program Files\Microchip\xc8\v2.36\bin\avr-objcopy.exe" -j .eeprom --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0 --no-change-warnings -O ihex "USART_Projects.elf" "USART_Projects.eep" || exit 0
+	"C:\Program Files\Microchip\xc8\v2.36\bin\avr-objdump.exe" -h -S "USART_Projects.elf" > "USART_Projects.lss"
 	
 	
 
